@@ -128,7 +128,8 @@ public class MqttPersistenceService implements PersistenceService {
 
     @Override
     public String getName() {
-        return "mqtt";
+        // return "mqtt";
+        return "ibmbluemix";
     }
 
     @Override

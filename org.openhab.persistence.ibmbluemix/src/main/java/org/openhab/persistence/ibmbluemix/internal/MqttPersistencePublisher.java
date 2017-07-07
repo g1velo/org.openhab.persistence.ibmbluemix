@@ -79,7 +79,7 @@ public class MqttPersistencePublisher implements MqttMessageProducer {
      */
     public void publish(Item item, String alias) throws Exception {
 
-        logger.debug("IIIItem : {} ", item.getName());
+        logger.debug("Item : {} ", item.getName());
         Object state = item.getState().toString();
 
         if (item.getState() instanceof DecimalType) {
